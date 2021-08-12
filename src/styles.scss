@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+$blue-green: #2C4A52;
+$fairway: #537072;
+$haze: #8E9B97;
+$smog: #F4EBDB;
+
+@font-face {
+    font-family: 'nunito';
+    src: url('./assets/fonts/Nunito-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

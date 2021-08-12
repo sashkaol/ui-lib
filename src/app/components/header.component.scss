@@ -1,0 +1,17 @@
+@import '../../styles.scss';
+
+.header {
+    background-color: $blue-green;
+    height: 70px;
+    position: fixed;
+    font-family: 'nunito';
+    color: $smog;
+    width: 100%;
+    &__wrapper {
+        max-width: 1140px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
